@@ -1,0 +1,143 @@
+#MAIN{
+	width: 100%;
+	height: 99%;
+	position: absolute;
+}
+
+/* Left side menu*/
+
+#menu {
+	width: 60px;
+	height: 90%;
+	position: absolute;
+	background-color: white;
+	border-right: 1px solid black;
+}
+
+.menu {
+	width: 50px;
+	height: 50px;
+	padding-top: 20%;
+	padding-bottom: 100%;
+	padding-right: 10px;
+	position: relative;
+}
+
+/* Big box */
+
+#container {
+	width: 90%;
+	height: 90%;
+	left: 72px;
+	top: 10px;
+	padding-left: 1%;
+	position: relative;
+}
+
+#popup {
+	width: 9%;
+	height: 100%;
+	position: absolute;
+}
+
+/* Box on the right */
+
+#sidebar {
+	width: 30%;
+	height: 100%;
+	float: right;
+	border: 1px solid black;
+}
+
+#creator {
+	width: 100%;
+	height: 20%;
+	text-align: center;
+}
+
+#info{
+	width: 100%;
+	height: 80%;
+}
+
+/* Midlle box */
+
+#content {
+	width: 60%;
+	height: 100%;
+	position: absolute;
+	margin-left: 9%;
+}
+
+.album {
+	width: auto%;
+	height: 50%;
+}
+
+#content1 {
+	position: relative;
+	float: left;
+  /*padding-left: 15%;*/
+}
+
+#content2 {
+	position: relative;
+	float: right;
+}
+
+#content3 {
+	position: relative;
+	float: left;
+  /*padding-left: 15%;*/
+}	
+
+#content4 {
+	position: relative;
+	float: right;
+}
+
+/* Images */
+
+img{
+	width: 90%;
+	height: 90%;
+	max-width: 500px;
+	max-height: 500px;
+}
+
+.album img{
+	min-width: 200px;
+	min-height: 200px;
+}
+
+/* Hover Capablities */
+
+#menu img:hover {
+	background: #C37500;
+	opacity: .9;
+}
+
+#container img:hover{
+    opacity: .5;
+}
+
+/* Fonts */
+
+@font-face{
+	font-family: Brandon_light;
+	src: url("Brandon_light.otf");
+}
+
+@font-face{
+	font-family: Brandon_bold;
+	src: url("Brandon_bld.otf");
+}
+
+body {
+	background-color: white;
+}
+
+/* {
+	border: 1px solid black;
+}
+*/

@@ -1,0 +1,93 @@
+#MAIN{
+	width: 100%;
+	height: 99%;
+	position: absolute;
+}
+
+#hidden {
+	display: none;
+}
+
+.menu:hover #hidden {
+	display: block;
+}
+
+/* Left side menu*/
+
+#menu {
+	width: 60px;
+	height: 100%;
+	padding-right: 1%;
+	position: absolute;
+	background-color: white;
+	border-right: 1px solid black;
+	text-align: center;
+}
+
+.menu {
+	width: 50px;
+	height: 50px;
+	padding-top: 100%;
+	padding-bottom: 100%;
+	position: relative;
+}
+
+/* Big box */
+
+#container {
+	width: 90%;
+	height: 90%;
+	left: 72px;
+	top: 10px;
+	position: relative;
+}
+
+/* Midlle box */
+
+#content {
+	width: 80%;
+	height: 100%;
+	position: absolute;
+	margin-left: 9%;
+	background-color: white;
+}
+
+.Bio {
+	text-align: center;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	font-size: 1em;
+	text-decoration: none;
+	font-family: Roboto;
+}
+
+/* Images */
+
+img{
+	width: 100%;
+	height: 100%;
+}
+
+/* Hover Capablities */
+
+#menu img:hover {
+	background: grey;
+	opacity: .9;
+}
+
+body {
+	background-color: white;
+	font-family: Roboto;
+}
+
+a:visited {
+    color: Black;
+}
+
+a {
+	color: black;
+}
+/* {
+	border: 1px solid black;
+}
+*/
